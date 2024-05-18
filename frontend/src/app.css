@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+	--primary-color: #1d3557;
+	--secondary-color: #457b9d;
+	--accent-color: #a8dadc;
+	--highlight-color: #e63946;
+	--background-color: #f5f5f5;
+	--text-color: #333333;
+	--white-color: #ffffff;
+	--notification-color: #f1faee;
+}
+
+body {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+header {
+	background-color: var(--primary-color);
+	color: var(--white-color);
+	padding: 1rem;
+}
+
+h1,
+h2,
+h3 {
+	color: var(--primary-color);
+}
+
+button {
+	background-color: var(--secondary-color);
+	color: var(--white-color);
+	border: none;
+	cursor: pointer;
+}
+
+button.secondary {
+	background-color: var(--highlight-color);
+}
+
+button:hover {
+	opacity: 0.9;
+}
+
+a {
+	color: var(--secondary-color);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.card {
+	background-color: var(--white-color);
+	border: 1px solid var(--accent-color);
+	padding: 1rem;
+	margin: 1rem 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
