@@ -1,7 +1,5 @@
 <script>
 	import WorkoutTemplateCard from './../../lib/components/workout/WorkoutTemplateCard.svelte';
-	import Icon from '$lib/components/common/Icon.svelte';
-	import PastWorkoutCard from '$lib/components/workout/PastWorkoutCard.svelte';
 
 	let workoutTemplates = [
 		{
@@ -59,16 +57,4 @@
 			<WorkoutTemplateCard title={item.title} exercises={item.exercises} />
 		{/each}
 	</div>
-	<!-- <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 my-3">
-		{#each recentProjects as item, idx (idx)}
-			<PastWorkoutCard
-				date={item.date}
-				title={item.title}
-				phase={item.phase}
-				text={item.text}
-				progress={item.progress}
-				assignees={item.assignees}
-			/>
-		{/each}
-	</div> -->
 </section>

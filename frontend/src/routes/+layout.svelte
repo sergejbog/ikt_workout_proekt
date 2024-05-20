@@ -4,7 +4,7 @@
 	import '../app.css';
 </script>
 
-<main class="py-10 px-5">
+<main class="pt-10 px-5 pb-20">
 	<Header />
 	<slot />
 </main>
