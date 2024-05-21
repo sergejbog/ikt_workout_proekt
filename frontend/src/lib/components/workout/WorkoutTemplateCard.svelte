@@ -7,7 +7,7 @@
 	<h2 class="text-lg font-semibold mb-1">{title}</h2>
 	<ul>
 		{#each exercises as exercise}
-			<li>{exercise}</li>
+			<li>{exercise.sets} x {exercise.name}</li>
 		{/each}
 	</ul>
 </div>
