@@ -57,23 +57,15 @@ const workoutTemplatesDummyData: WorkoutTemplate[] = [
 		exercises: [
 			{
 				name: 'Deadlift (Barbell)',
-				sets: 5
+				sets: 2
 			},
 			{
 				name: 'Squat (Barbell)',
-				sets: 5
+				sets: 3
 			},
 			{
 				name: 'Leg Press',
-				sets: 5
-			},
-			{
-				name: 'Leg Curl',
-				sets: 5
-			},
-			{
-				name: 'Calf Raise',
-				sets: 5
+				sets: 3
 			}
 		]
 	},
